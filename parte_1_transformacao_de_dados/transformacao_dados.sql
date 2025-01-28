@@ -8,7 +8,7 @@ WITH raw_mrr AS (
         DATE(t.event_month) AS event_month,
         t.product,
         t.accumulated_mrr,
-    FROM `total-vertex-449213-i7.goomer.mrr` t
+    FROM `goomer.mrr` t
 ),
 mrr_intervalos AS (
     -- Calcula o próximo mês de cada evento de MRR para identificar intervalos de meses ausentes.
@@ -58,7 +58,7 @@ raw_invoices AS (
         ti.invoice_expired_dt,
         ti.paid,
         SUM(paid) OVER (PARTITION BY ti.establishment_id, ti.product_code) AS invoice_per_product
-    FROM `total-vertex-449213-i7.goomer.invoices` ti
+    FROM `goomer.invoices` ti
 ), 
 base_invoices AS (
     -- Agrupa os valores de faturas pagas por produto e estabelecimento.
