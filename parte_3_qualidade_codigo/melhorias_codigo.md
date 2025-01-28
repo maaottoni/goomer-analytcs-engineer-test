@@ -1,0 +1,14 @@
+# Parte 3 - Qualidade do Código
+
+A seguir, algumas sugestões de medidas que podem ser adotadas para melhorar a qualidade do código fornecido:
+
+## Organização do Código
+- Utilizar indentação adequada para melhorar a legibilidade.
+- Adicionar comentários explicando o objetivo principal da query e das CTEs.
+- Utilizar aliases para as tabelas referenciadas nas CTEs para facilitar a leitura e compreensão do código.
+
+## Otimização de Performance
+- Adicionar um índice na coluna `data_expiracao` no filtro da CTE `base_assinaturas`, caso não exista.
+- Expandir o campo `items` chamando a função `json_array_elements` uma única vez com o operador `LATERAL`.
+- Usar `COALESCE` ao invés de `CASE` para tratar os valores do campo `pacote`.
+- Aplicar o filtro `due_date >= '2022-07-01'` na CTE `assinatura_raw` e o filtro `ia.quantity > 0` na CTE `items_assinatura` para diminuir o número de registros processados nas etapas seguintes.
