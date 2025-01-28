@@ -23,7 +23,7 @@ erDiagram
         string tipo_receita
         string produto
     }
-
+```
 
 2 - Tabela assinaturas
 Tabela contendo informações sobre as assinaturas dos clientes com suas respectivas datas de início, de cancelamento, valor da assinatura mensal, status da assinatura (ativa, cancelada, etc), produto associado.
@@ -39,6 +39,7 @@ erDiagram
         string produto
         float valor_assinatura_mensal
     }
+```
 
 ## Relacionamento entre as tabelas:
 
@@ -67,3 +68,4 @@ erDiagram
     }
 
     ASSINATURAS ||--o{ FATURAS : "gera"
+```
