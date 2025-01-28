@@ -1,4 +1,8 @@
+-- Objetivo: Analisar os valores de MRR (Monthly Recurring Revenue) e faturas pagas por estabelecimento e produto.
+-- A query nivela os meses ausentes nos dados de MRR, calcula somatórios por produto e estabelecimento, 
+-- e compara os valores de MRR acumulados com os valores de faturas pagas para identificar possíveis discrepâncias.
 WITH raw_mrr AS (
+    -- Seleciona os campos principais da tabela de MRR
     SELECT 
         t.establishment_id,
         DATE(t.event_month) AS event_month,
@@ -7,6 +11,7 @@ WITH raw_mrr AS (
     FROM `total-vertex-449213-i7.goomer.mrr` t
 ),
 mrr_intervalos AS (
+    -- Calcula o próximo mês de cada evento de MRR para identificar intervalos de meses ausentes.
     SELECT
         b.establishment_id,
         b.event_month,
@@ -16,6 +21,7 @@ mrr_intervalos AS (
     FROM raw_mrr b
 ),
 mrr_meses_faltantes AS (
+    -- Gera os meses ausentes entre os intervalos obtidos anteriormente.
     SELECT 
         mi.establishment_id,
         DATE_ADD(mi.event_month, INTERVAL n MONTH) AS event_month,
@@ -26,11 +32,13 @@ mrr_meses_faltantes AS (
     WHERE mi.proximo_mes IS NOT NULL
 ), 
 mrr_meses_nivelados AS (
+    -- Unifica os registros de MRR com os meses faltantes.
     SELECT * FROM mrr_meses_faltantes
     UNION ALL
     SELECT * FROM raw_mrr
 ), 
 mrr_sum_per_product AS ( 
+     -- Calcula o total de MRR acumulado por produto e estabelecimento.
     SELECT 
         mn.establishment_id, 
         mn.product,
@@ -38,10 +46,12 @@ mrr_sum_per_product AS (
     FROM mrr_meses_nivelados mn
 ),
 base_mrr AS (
+    -- Agrupa os valores de MRR por produto, estabelecimento e MRR acumulado
     SELECT * FROM mrr_sum_per_product
     GROUP BY 1, 2, 3
 ),
 raw_invoices AS (
+    -- Seleciona os campos de interesse da tabela de invoices e calcula o pagamento toal por estabelecimento e produto.
     SELECT 
         ti.establishment_id,
         ti.product_code AS product,
@@ -51,6 +61,7 @@ raw_invoices AS (
     FROM `total-vertex-449213-i7.goomer.invoices` ti
 ), 
 base_invoices AS (
+    -- Agrupa os valores de faturas pagas por produto e estabelecimento.
     SELECT 
         bi.establishment_id, 
         bi.product,
@@ -60,6 +71,7 @@ base_invoices AS (
     ORDER BY establishment_id, product
 ), 
 base_analise AS (
+    -- Realiza o join entre as tabelas de MRR e faturas pagas.
     SELECT 
         mrr.establishment_id,
         mrr.product,
@@ -70,6 +82,7 @@ base_analise AS (
         ON mrr.establishment_id = inv.establishment_id 
         AND mrr.product = inv.product 
 ) 
+-- Consulta final com a análise de discrepâncias entre MRR e faturas pagas e atribuição de status de pagamento.
 SELECT 
     ba.establishment_id,
     ba.product, 
