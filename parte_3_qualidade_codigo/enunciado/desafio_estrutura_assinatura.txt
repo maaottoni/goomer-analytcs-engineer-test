@@ -1,0 +1,30 @@
+-- Estrutura da tabela datalake.subscription:
+id					varchar not null,
+external_id			int,
+created_at			timestamptz not null,
+due_date			date not null,
+plan				varchar(4) not null,
+interval			int,
+items				json
+
+-- Exemplo de dados de uma linha:
+id: "A1B2C3D4E5F6G7H8",
+external_id: 123456,
+created_at: "2023-09-03T12:18:00+00",
+due_date: "2023-10-03",
+plan: "pro",
+interval: 12,
+items: [
+	{
+		id: "JD2PNA78K6GT366A5JJ3YNVOEECXTQMV",
+		quantity: 2,
+		name: "Licença Cardápio Digital",
+		price_cents: 5000
+	},
+	{
+		id: "1F7HS40Z9M1619OMPXB0GV8DXS8PQ5WF",
+		quantity: 1,
+		name: "Delivery",
+		price_cents: 3000
+	}
+]
