@@ -22,7 +22,7 @@ erDiagram
     }
 ```
 
-Confira [aqui](https://github.com/maaottoni/goomer-analytcs-engineer-test/blob/main/parte_2_modelagem/resposta/faturas.csv) um exemplo da tabela `faturas` populada com alguns dados ficticios.
+> 💡 Confira [aqui](https://github.com/maaottoni/goomer-analytcs-engineer-test/blob/main/parte_2_modelagem/resposta/faturas.csv) um exemplo da tabela `faturas` populada com alguns dados ficticios.
 
 
 
