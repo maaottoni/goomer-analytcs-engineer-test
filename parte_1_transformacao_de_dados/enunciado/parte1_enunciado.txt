@@ -1,5 +1,4 @@
 ### Enunciado
-
 O nosso Analista de BI solicitou uma tabela que cruze as informações de faturas pagas com a de MRR por loja e por produto por mês. A hipótese é de que estamos gerando muitos descontos através de processos operacionais.
 
 #### Parte 1.1
