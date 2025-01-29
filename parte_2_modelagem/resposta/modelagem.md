@@ -1,5 +1,5 @@
 
-# Parte 2 - Modelagem de tabealas
+# Parte 2 - Modelagem de tabelas
 
 Para responder as perguntas listadas no enunciado ao menos duas tabelas seriam necessárias:
 
