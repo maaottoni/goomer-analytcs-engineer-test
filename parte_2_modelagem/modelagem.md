@@ -83,10 +83,6 @@ WHERE
     AND status = 'aguardando_pagamento'
 ```
 
-total_aguardando
------------------
-1450.00
-
 
 <b>2 - Quantos reais tivemos em Faturas expiradas em julho/2022?</b>
 
