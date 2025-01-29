@@ -145,3 +145,5 @@ WHERE
 GROUP BY data_cancelamento
 
 ```
+
+[⬅️ Voltar para o README](https://github.com/maaottoni/goomer-analytcs-engineer-test/blob/main/README.md)

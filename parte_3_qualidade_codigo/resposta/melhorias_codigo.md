@@ -16,3 +16,6 @@ A seguir, algumas sugestões de medidas que podem ser adotadas para melhorar a q
 ## Exemplo de Código Final
 - A query disponivel [nesse link](https://github.com/maaottoni/goomer-analytcs-engineer-test/blob/main/parte_3_qualidade_codigo/resposta/consulta_assinaturas_melhorada.sql) apresenta um exemplo de código final, com as sugestões de melhoria apresentadas acima.
 
+
+[⬅️ Voltar para o README](https://github.com/maaottoni/goomer-analytcs-engineer-test/blob/main/README.md)
+
