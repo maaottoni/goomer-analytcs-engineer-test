@@ -4,7 +4,7 @@
 
 # Desafio - Analytics Engineer Goomer 👩‍💻
 
-Olá recrutadores! 
+Olá, recrutadores! 
 
 Nesse repositório estrurei a resolução do desafio para o Processo Seletico de Analytics Engineer.
 
@@ -15,6 +15,11 @@ A seguir estão as respostas para cada uma das perguntas do case:
 - <b> Parte 2 - Modelagem de tabelas </b> ✍️ [Resposta](https://github.com/maaottoni/goomer-analytcs-engineer-test/blob/main/parte_2_modelagem/resposta/modelagem.md)
 
 - <b> Parte 3 - Qualidade do Código  </b> ✍️ [Resposta](https://github.com/maaottoni/goomer-analytcs-engineer-test/blob/main/parte_3_qualidade_codigo/resposta/melhorias_codigo.md) 
+
+
+Qualquer dúvida, estou à disposição!
+[💼 LinkedIn](https://www.linkedin.com/in/maaottoni/)
+[💬 WhatsApp](https://api.whatsapp.com/send?phone=543516520072)
 
 
 
