@@ -1,7 +1,0 @@
-Como você recomenda que sejam as tabelas e suas colunas para que seja possível responder às seguintes perguntas:
-
-Quantos reais tivemos em Faturas geradas em julho/2022 que estão aguardando o pagamento?
-E quantos reais tivemos em Faturas expiradas em julho/2022?
-Quantos reais tivemos de Faturas pagas por mês de Assinaturas por produto?
-E quanto tivemos de Receita mensal de Taxa de Implementação e Projetos?
-Quantas Assinaturas canceladas temos por mês?
