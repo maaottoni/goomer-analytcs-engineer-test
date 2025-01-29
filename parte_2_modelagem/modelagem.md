@@ -22,6 +22,19 @@ erDiagram
     }
 ```
 
+Exemplo 
+| id_fatura | valor_total | data_emissao | status               |
+|-----------|-------------|--------------|----------------------|
+| 1         | 500.00      | 2022-07-05   | aguardando_pagamento |
+| 2         | 250.00      | 2022-07-10   | aguardando_pagamento |
+| 3         | 150.00      | 2022-07-15   | pago                 |
+| 4         | 300.00      | 2022-07-20   | aguardando_pagamento |
+| 5         | 200.00      | 2022-06-30   | aguardando_pagamento |
+| 6         | 400.00      | 2022-07-25   | aguardando_pagamento |
+| 7         | 100.00      | 2022-08-01   | aguardando_pagamento |
+
+
+
 <b>2 - Tabela assinaturas</b>
 Tabela contendo informações sobre as assinaturas dos clientes com suas respectivas datas de início, de cancelamento, valor da assinatura mensal, status da assinatura (ativa, cancelada, etc), produto associado.
 
