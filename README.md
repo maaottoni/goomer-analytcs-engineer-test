@@ -6,7 +6,7 @@
 
 Olá, recrutadores! 
 
-Nesse repositório estrurei a resolução do desafio para o Processo Seletico de Analytics Engineer.
+Nesse repositório estruturei a resolução do desafio para o Processo Seletico de Analytics Engineer.
 
 A seguir estão as respostas para cada uma das perguntas do case:
 
