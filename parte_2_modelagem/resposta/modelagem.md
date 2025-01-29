@@ -1,7 +1,7 @@
 
 # Parte 2 - Modelagem de tabelas
 
-📄 **[Enunciado](https://github.com/maaottoni/goomer-analytcs-engineer-test/blob/main/parte_2_modelagem/enunciado/parte2_enunciado.txt)**
+📄 [Enunciado](https://github.com/maaottoni/goomer-analytcs-engineer-test/blob/main/parte_2_modelagem/enunciado/parte2_enunciado.md)
 
 
 Para responder as perguntas listadas no enunciado ao menos duas tabelas seriam necessárias:

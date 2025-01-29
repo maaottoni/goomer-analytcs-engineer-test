@@ -1,6 +1,6 @@
 # Parte 1 - Transformação de Dados
 
-📄 **[Enunciado](https://github.com/maaottoni/goomer-analytcs-engineer-test/blob/main/parte_1_transformacao_de_dados/enunciado/parte1_enunciado.txt)**
+📄 [Enunciado](https://github.com/maaottoni/goomer-analytcs-engineer-test/blob/main/parte_1_transformacao_de_dados/enunciado/parte1_enunciado.md)
 
 
 ### Resolução

@@ -14,3 +14,6 @@ Continuando no mesmo código SQL: cruze com os dados de faturas pagas e trate as
 - **Classificar como overpaid**: MRR do estabelecimento por produto < Valor pago em faturas por estabelecimento por produto
 
 O seu código SQL será avaliado baseado na lógica para resolução do desafio. Por isso você pode fazer o SQL em um notepad de sua preferência ou pode subir para alguma ferramenta, criar as tabelas, importar os CSVs e executar de fato o seu código. Você terá os CSV_1_MRR e CSV_2_INVOICES como base simulando os dados das tabelas e um vídeo explicativo.
+
+
+✨ [Resolução](https://github.com/maaottoni/goomer-analytcs-engineer-test/blob/main/parte_1_transformacao_de_dados/resposta/transformacao_dados.md)
