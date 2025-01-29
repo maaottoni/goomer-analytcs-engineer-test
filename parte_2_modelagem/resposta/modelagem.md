@@ -1,5 +1,5 @@
 
-# Modelagem de tabealas
+# Parte 2 - Modelagem de tabealas
 
 Para responder as perguntas listadas no enunciado ao menos duas tabelas seriam necessárias:
 
@@ -71,7 +71,7 @@ erDiagram
     ASSINATURAS ||--o{ FATURAS : "gera"
 ```
 
-### Respondendo as perguntas com as tabelas
+### Respondendo perguntas com as tabelas
 
 A seguir alguns exemplos de como responder as perguntas realizadas com as tabelas sugeridas:
 
