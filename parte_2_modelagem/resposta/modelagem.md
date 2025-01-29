@@ -24,7 +24,8 @@ erDiagram
 
 > 💡 Confira [aqui](https://github.com/maaottoni/goomer-analytcs-engineer-test/blob/main/parte_2_modelagem/resposta/faturas.csv) um exemplo da tabela `faturas` populada com alguns dados ficticios.
 
-
+ 
+ 
 
 <b>2 - Tabela assinaturas</b>
 Tabela contendo informações sobre as assinaturas dos clientes com suas respectivas datas de início, de cancelamento, valor da assinatura mensal, status da assinatura (ativa, cancelada, etc), produto associado.
@@ -41,6 +42,7 @@ erDiagram
         float valor_assinatura_mensal
     }
 ```
+> 💡 Confira [aqui](https://github.com/maaottoni/goomer-analytcs-engineer-test/blob/main/parte_2_modelagem/resposta/assinaturas.csv) um exemplo da tabela `assinaturas` populada com alguns dados ficticios.
 
 <b>Relacionamento entre as tabelas:</b>
 
