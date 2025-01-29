@@ -1,6 +1,9 @@
 
 # Parte 2 - Modelagem de tabelas
 
+📄 **[Enunciado](https://github.com/maaottoni/goomer-analytcs-engineer-test/blob/main/parte_2_modelagem/enunciado/parte2_enunciado.txt)**
+
+
 Para responder as perguntas listadas no enunciado ao menos duas tabelas seriam necessárias:
 
 <b> 1 - Tabela faturas </b>

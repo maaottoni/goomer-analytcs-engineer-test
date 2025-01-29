@@ -1,5 +1,8 @@
 # Parte 3 - Qualidade do Código
 
+📄 **[Enunciado](https://github.com/maaottoni/goomer-analytcs-engineer-test/blob/main/parte_3_qualidade_codigo/enunciado/parte_3_enunciado.txt)**
+
+
 A seguir, algumas sugestões de medidas que podem ser adotadas para melhorar a qualidade do código fornecido:
 
 ## Organização do Código
