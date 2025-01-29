@@ -4,7 +4,7 @@
 Para responder as perguntas listadas no enunciado ao menos duas tabelas seriam necessárias:
 
 <b> 1 - Tabela faturas </b>
-Tabela contendo informações sobre as faturas geradas, suas respectivas datas de emissão, de vencimento, de pagamento, valor total da fatura, status da fatura (aguardando_pagamento, pago, expirado, cancelada, etc), produto.
+<br>Tabela contendo informações sobre as faturas geradas, suas respectivas datas de emissão, de vencimento, de pagamento, valor total da fatura, status da fatura (aguardando_pagamento, pago, expirado, cancelada, etc), produto.
 
 
 ```mermaid
@@ -22,13 +22,11 @@ erDiagram
     }
 ```
 
-> 💡 Confira [aqui](https://github.com/maaottoni/goomer-analytcs-engineer-test/blob/main/parte_2_modelagem/resposta/faturas.csv) um exemplo da tabela `faturas` populada com alguns dados ficticios.
+> 💡 Confira [aqui](https://github.com/maaottoni/goomer-analytcs-engineer-test/blob/main/parte_2_modelagem/resposta/faturas.csv) um exemplo da tabela `faturas` populada com alguns dados ficticios.  
 
- 
- 
 
-<b>2 - Tabela assinaturas</b>
-Tabela contendo informações sobre as assinaturas dos clientes com suas respectivas datas de início, de cancelamento, valor da assinatura mensal, status da assinatura (ativa, cancelada, etc), produto associado.
+<b> 2 - Tabela assinaturas</b>
+<br>Tabela contendo informações sobre as assinaturas dos clientes com suas respectivas datas de início, de cancelamento, valor da assinatura mensal, status da assinatura (ativa, cancelada, etc), produto associado.
 
 ```mermaid
 erDiagram
